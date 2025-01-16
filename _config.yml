@@ -1,0 +1,10 @@
+title: "t-tsuya's blog from Japan"
+description: "Essays on Japanese culture and probability theory"
+url: "https://t-tsuya.github.io"
+theme: minima  # 公式テーマ(例)
+
+plugins:  # github-pages でサポートされているか要確認
+  - jekyll-feed
+  - jekyll-sitemap
+
+# 追加で使いたい設定やプラグインがあればここに記載
