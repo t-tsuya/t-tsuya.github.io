@@ -1,4 +1,12 @@
+# Jekyll ビルド生成物
 _site/
-.sass-cache
 .jekyll-cache/
+.jekyll-metadata
+.sass-cache/
+
+# Bundler 関連（オプション）
 .bundle/
+
+# OS固有ファイル（必要に応じて）
+.DS_Store
+Thumbs.db
