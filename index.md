@@ -18,12 +18,12 @@ title: "top page"  # トップページのタイトルとして表示されま�
 
 ## 最新の記事
 
-{% for post in site.posts limit:5 %}
-- [{{ post.title }}]({{ post.url }}) - *{{ post.date | date: "%Y-%m-%d" }}*
-{% endfor %}
+{% for post in site.posts %}
+- **[{{ post.title }}]({{ post.url }})**（{{ post.category }}） - *{{ post.date | date: "%Y-%m-%d" }}*
 
-上記以外の記事一覧は、[こちら](/blog/) からご覧ください。  
-（※もし記事一覧を別ページにまとめたい場合は、`/blog/` など別ディレクトリに配置しリンクします。）
+  ---
+
+{% endfor %}
 
 ## 今後の予定
 
